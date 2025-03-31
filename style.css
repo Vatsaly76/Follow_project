@@ -1,0 +1,160 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000; 
+    
+}
+
+#card{
+
+    width: 300px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 30px;
+} 
+#card img{
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    object-fit: cover;
+    object-position: center;
+    padding: 8px; 
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    
+
+    border-radius: 50%;
+    display: block;
+}
+#card h2{
+    font-size: 25px;
+    color:  #000000;    
+    text-align: center;
+    margin: 8px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#card h5{
+    font-size: 18px;
+    text-align: center;
+    color: #d62976;
+    margin: 20px ;
+}
+#card button{
+    width: 100px;
+    background-color: #0095f6; 
+    color: #111; 
+
+    font-weight: 700;
+    padding: 10px 17px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30%;
+}
+
+#card button:active{
+    scale: 0.9;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000; /* Pure black */
+}
+
+#card {
+    width: 320px;
+    background-color: #fafafa;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); /* Soft glow effect */
+}
+
+#card img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px; /* Space for the border */
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+#card h2 {
+    font-size: 24px;
+    color: #000000;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+#card h5 {
+    font-size: 18px;
+    text-align: center;
+    color: #64666a; /* Softer grayish-white for better contrast */
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+}
+
+#card button {
+    width: 110px;
+    background-color: #0095f6; 
+    color: #ffffff;  /* White text for better contrast */
+    font-weight: 700;
+    padding: 10px 17px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#card button:hover {
+    background-color: #0077cc;
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+#card button:active {
+    transform: scale(0.95);
+}
+
+#bio{
+    padding: 10px 0px;
+    text-align: left;
+    /* background-color: purple; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    color:#d62976;
+    text-decoration: none;
+    cursor: pointer;
+}
